@@ -1,0 +1,813 @@
+@function emCalc($target, $context:16)
+	@return $target / $context * 1em
+
+
+body, html
+	font-family: "Aller"
+
+img 
+	max-width: 100%
+
+.container
+	width: 980px
+	max-width: 100%
+
+.bd-top, .md-top
+	border-top: 5px solid #b2c6e0
+
+.bd-down, .md-down
+	border-bottom: 5px solid #b2c6e0
+
+
+.bg-white, .mg-white
+	background-color: #FFF
+
+.bg-transparent, .mg-transparent
+	background-color: rgba(255, 255, 255, 0.96)
+
+.bg-push, .mg-push
+	margin-bottom: 35px
+
+.bg-pushup, .mg-pushup
+	margin-top: 35px
+
+
+.menu
+	border: 0
+
+.menu > ul
+	text-align: right
+
+.menu > ul > li 
+	display: inline-block
+	margin-top: 20px
+	padding-top: 30px
+	font-size: 20px
+	text-align: center
+	color: #449cc3
+	height: 80px
+	padding: 20px 10px 0
+
+.menu-shadow
+	position: relative
+	z-index: 5
+
+	box-shadow: 0 0px 5px 0px rgba(#000, 0.75)
+
+
+.main-logo
+	padding-top: 30px
+
+
+a:hover
+	text-decoration: none
+	transition: .3s
+
+.main-header
+	color: #449cc3
+	font-size: 33px
+	text-align: center
+
+
+
+
+
+.harm-head
+	background-image: url("images/big-images/4.jpg")
+	background-position: center -340px
+	background-size: 100%
+	height: 430px
+	padding-top: 170px
+
+
+
+//partnerzy//
+
+.partners
+	background-image: url("images/layer6.jpg")
+	background-position: -70px -50px
+	height: 430px
+	padding-top: 170px
+
+	
+
+
+.ceneo
+	text-align: center
+	font-size: 22px
+	color: #c1c2c3
+	margin-bottom: 25px
+
+
+
+
+
+
+.lms
+	max-width: 100%
+	max-height: 100px
+
+.meryt
+	max-width: 100%
+	max-height: 70px
+
+
+.logos
+	border-bottom: none
+	margin-bottom: 40px
+	font-size: 0
+	
+	a
+		text-align: center
+		display: table-cell
+		vertical-align: middle
+
+	[class^="col-"]
+		display: inline-block
+		float: none
+		vertical-align: middle
+		margin-bottom: 15px
+
+.logos-wrapper
+	display: table
+	width: 100%
+	height: 100%
+
+	
+
+.footer2
+	height: 320px
+	background-image: url("images/big-images/7.jpg")
+	background-position: -0 bottom
+	border-bottom: none
+	background-size: cover
+
+
+.puste
+	height: 500px
+
+.part 
+	background-color: #fff
+
+
+//partnerzy//
+
+
+.content-startAP 
+	
+	color: #868788
+	font-size: 16px
+	text-align: justify
+
+.start
+	font-size: 20px
+	color: #449cc3
+	font-weight: 400
+
+
+
+.wiecej
+	font-size: 16px
+
+
+
+
+.content1
+	margin-bottom: 20px
+
+
+
+.partnerzy
+	color: #515151
+	font-size: 33px
+	text-align: center
+	
+
+
+.partnerzy-main
+	padding-bottom: 30px
+
+
+.partnerzy-section
+	background-image: url("images/big-images/5.jpg")
+	padding-top: 215px
+	background-position: center 330px
+	text-align: center
+	background-size: 100%
+
+
+figcaption
+	color: #9c9d9e
+	margin-top: 20px
+
+
+figure
+	margin-top: 25px
+
+.logo-pic
+	float: none
+	margin: 60px auto 20px auto
+	padding-bottom: 40px
+	
+
+
+.szkolenia
+	background-image: url("images/big-images/8.jpg")
+	background-position: center center
+	height: 430px
+	padding-top: 60px
+	
+
+
+
+.szkolenia a 
+	font-size: 25px
+	
+.buttons
+	width: 350px
+	max-width: 100%
+	margin: 0 auto
+	font-weight: 300 
+	padding-top: 25px
+
+
+
+	
+.button-log
+	background-color: rgba(#0078ad, 0.64)
+	color: #fff
+	padding: 30px 40px
+	display: block
+	float: left 
+	width: 50%
+	text-align: center
+	height: 85px
+	
+
+	&:hover
+		color: #449cc3 
+		text-decoration: none
+		transition: .3s
+		background-color: rgba(#fff, .7)
+
+
+
+
+.button-sign
+	background-color: rgba(#fff, .7)
+	color: #449cc3
+	padding: 30px 40px
+	display: block
+	float: right 
+	width: 50%
+	text-align: center
+	height: 85px
+	
+
+	&:hover
+		color: #fff
+		text-decoration: none
+		transition: .3s
+		background-color: rgba(#0078ad, 0.64)
+
+
+//Regulamin//
+
+.regulamin
+	background-image: url("images/Layer4.jpg")
+	height: 430px
+	padding-top: 60px
+	background-position: 0 -380px
+	background-size: 100%
+
+.pic-slider
+	position: absolute
+	right: 0
+	bottom: -10px
+	z-index: 20
+
+
+.carousel-inner
+	overflow: visible
+
+
+
+.reg-but
+	border: 4px solid #449cc3
+	max-width: emCalc(370, 47)
+	height: emCalc(80, 47)
+	text-align: center
+	padding-top: emCalc(12, 47)
+	display: block
+	margin: 0 auto
+	font-size: 47px
+
+
+
+
+
+.nowa2
+	color: #fff
+	font-weight: 200
+	background-color: #0278ad
+	width: 470px
+	height: 50px
+	font-size: 35px
+	padding: 5px 0 5px 35px
+	margin-top: 250px
+
+
+
+
+	a:hover
+		text-decoration: none
+		transition: 0.3s
+
+.nowa
+
+	color: #fff
+	border: 4px solid #fff
+
+
+.rule
+	height: 215px
+
+//Regulamin//
+
+
+//Circles//
+
+.col-sm-3
+	margin: 0 auto
+
+
+.logos .col-sm-4
+	margin-bottom: 30px
+
+.editions
+	background-color: #449cc3
+	min-height: 240px
+	text-align: center
+	padding-top: 35px
+
+.editions2
+	min-height: 320px
+	padding: 0
+
+.prev-eds
+	color: #fff
+	
+	
+
+
+
+.circle
+	font-size: 33px
+	background-color: #fff
+	border-radius: 50%
+	display: block
+	height: 135px
+	width: 135px
+	padding-top: 40px
+	margin: 20px auto 20px auto
+	text-align: center
+	
+
+
+
+.circle-blue
+	background-color: #0078ad
+	color: #fff
+
+	
+
+
+.white 
+
+	background-color: rgba(#fff, 0.96)
+	margin-top: 45px
+	padding-top: 50px
+	
+	
+	
+	border-bottom: 5px solid #aec3dd
+	border-top: 5px solid #aec3dd
+
+	&:last-child 
+		margin-bottom: 45px
+
+	
+
+.circle-white
+	color: #0078ad
+	border: 4px solid #0078ad
+	
+//Circles//
+
+
+//organizator//
+
+.wig 
+	color: black
+	font-weight: 600
+	
+.podst-logo
+	max-width: 100%
+	max-height: 130px
+
+.organ 
+	
+	margin-bottom: 50px
+//organizator//
+
+
+.kontakt
+	padding-bottom: 20px
+	text-align: center
+
+
+
+
+.szkolenia .main-header
+	width: 350px
+	height: 85px
+	background-color: rgba(#fff, .7)
+	margin: 0 auto
+	padding-top: 25px
+	margin-bottom: 30px
+	max-width: 100%
+
+
+
+.face
+	width: 144px
+	height: 144px
+
+
+
+.position
+	color: #449cc3
+	font-size: 15px
+	font-weight: 600
+
+.about
+	color: #979696
+	font-size: 15px
+	margin-top: 20px
+
+h5
+	font-weight: 600
+	font-size: 15px
+
+
+
+
+//harmonogram/
+
+.days 
+	color: #449cc3
+	font-size: 38px
+	text-align: center
+
+.date
+	color: #fff
+	font-size: 38px
+	text-align: center
+	
+
+.date2
+	color: #449cc3
+
+
+
+.def-col
+	width: 345px
+	margin-left: 55px
+
+
+
+.harm 
+	background-image: url("images/big-images/2.jpg")
+	background-position: 0 -450px
+	background-size: 100%
+	border-bottom: none
+	padding-top: 75px
+	height: 320px
+
+	a:hover
+		text-decoration: none
+		transition: 0.3s
+
+
+
+//harmonogram//
+
+
+.black-footer
+	background-color: #232323
+	height: 170px
+	border-bottom: none
+
+
+//poprzednie edycje//
+
+.startap
+	background-image: url("images/big-images/3.jpg")
+	color: #fff
+	background-position: 0 -200px
+	background-size: 100%
+	height: 420px
+	padding-top: 170px
+
+
+
+
+.years
+	font-size: 17px
+	color: #868788
+
+.years-wrapper
+	padding-top: 50px
+
+	
+
+.title
+	color: #0078ad
+	font-size: 22px
+
+.kolo
+	height: 144px
+	width: 144px
+	text-align: center
+	border-radius: 50%
+
+
+//poprzednie edycje//
+
+
+footer
+	height: 75px
+	
+
+.stopka
+	border-bottom: none
+
+.footer-p
+	float: left
+	padding-top: 45px
+	font-size: 11px
+	color: #aeaeae
+	
+
+
+.footer-pic
+	float: right
+	padding-top: 15px
+	margin-right: 30px
+
+
+
+//harmo//
+.harm-table
+	font-size: 17px
+	margin: 0 auto
+	width: 100%
+
+	td 
+		vertical-align: top
+
+
+.hour 
+	color: #2383ad
+	font-size: 16px
+	padding-left: 0
+	width: 120px
+
+td 
+	padding-bottom: 10px
+	padding-left: 25px
+
+
+.opis2
+	font-size: 14px
+
+
+
+.column1, .column2
+	width: 320px
+
+.blok
+	color: #2383ad
+	font-size: 13px 
+
+.day
+
+	padding-left: 20px
+	padding-bottom: 20px
+
+.row-bgi
+	background-image: url("images/row-bgi.jpg")
+	background-position: 0 -450px
+	background-size: 100%
+
+.row-bgi2
+	background-image: url("images/tumblr-bgr.jpg")
+	background-position: center -180px
+	border-bottom: none
+	background-size: 100%
+
+
+
+
+.rodzaj
+	color: #2383ad
+	font-size: 24px
+	margin-left: 100px
+	text-align: center
+
+.opis
+	color: #2383ad
+	font-size: 17px
+	margin-left: 100px
+	text-align: center
+
+	span
+		font-weight: 600
+
+.last-table
+	margin-bottom: 70px
+
+//harmo//
+
+.slide-img-wrapper
+	width: auto
+	height: 420px
+	background-size: cover
+	background-position: center 20%
+
+
+.slide-img-outer-wrapper
+	overflow: hidden
+
+.positioner
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+
+
+.wrapper
+	display: table
+	width: 100%
+	height: 100%
+
+.inner
+	display: table-cell
+	vertical-align: middle
+
+.bord 
+	border-bottom: 5px solid #b4c7df
+
+.menu .list-unstyled
+	margin-bottom: 0
+
+.menu .dropdown:hover .dropdown-menu
+	display: block
+	margin-top: 0
+	padding: 0
+
+
+.dropdown-menu
+	background-color: transparent
+	box-shadow: none
+	border: none
+	margin-top: 5px
+	left: 50%
+	margin-left: -85px
+
+
+	
+
+	li
+		background-color: rgba(#187eaf, .9)
+		margin-bottom: 5px
+		height: 45px
+		width: 170px
+
+
+	li > a
+		color: #fff
+		font-size: 17px
+		font-weight: 200
+		padding: 10px 5px
+
+
+
+
+
+
+.srodek
+	vertical-align: middle
+
+
+@media screen and (max-width: 768px)
+	.menu > ul
+		text-align: center
+
+	.menu >ul> li
+		font-size: 14px
+
+	.startap
+		background-size: cover
+
+	.footer2
+		background-position: center bottom
+
+
+
+
+@media screen and (max-width: 580px)
+	.carousel
+		.reg-but
+			font-size: 32px
+		.date
+			font-size: 24px
+
+@media screen and (max-width: 480px)
+
+
+	.menu > ul > li 
+		display: block
+		float: none
+		width: auto
+		padding-top: 0
+		height: auto
+
+	.content-startAP
+		font-size: 12px
+
+	.title
+		font-size: 14px
+
+	.carousel
+		.reg-but
+			font-size: 20px
+		.date
+			font-size: 16px
+			margin-top: 10px
+
+	.szkolenia .button-log, 
+	.szkolenia .button-sign
+		font-size: 18px
+
+	.reg-but
+		font-size: 32px
+
+
+	.rodzaj
+		margin-left: 0
+		font-size: 20px
+
+		.main-header
+			font-size: 24px
+
+	.hour
+		text-align: center
+
+	.stopka
+		text-align: center
+
+	.footer-p, .footer-pic
+		float: none
+
+	.footer-pic
+		margin-bottom: 20px
+
+
+
+
+@media screen and (max-width: 1420px)
+	.slide-img-wrapper
+		margin: 0 -250px
+
+
+@media screen and (max-width: 1120px)
+	.slide-img-wrapper
+		margin: 0 -400px
+
+
+@media screen and (max-width: 920px)
+	.slide-img-wrapper
+		margin: 0 -500px
+
+
+@media screen and (max-width: 720px)
+	.slide-img-wrapper
+		margin: 0 -600px
+
+
+@media screen and (max-width: 420px)
+	.slide-img-wrapper
+		margin: 0 -750px
+
